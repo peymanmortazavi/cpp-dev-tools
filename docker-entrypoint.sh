@@ -18,7 +18,7 @@ if [ ! -f "/etc/ssh/ssh_host_dsa_key" ]; then
 fi
 
 #prepare run dir
-if [[ ! -d "/var/run/sshd" ]]; then
+if [ ! -d "/var/run/sshd" ]; then
   mkdir -p /var/run/sshd
 fi
 
